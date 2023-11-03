@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    list-style-type: none;
+    background-color: rgb(7, 7, 68);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 75px;
+    height: 100px;
+}
+header img {
+    width: 150px;
+}
+
+nave, ul{
+    list-style-type: none;
+}
+
+header, nav, ul{
+    display: flex;
+}
+
+nav, li, a{
+    color: rgb(255, 117, 26);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav, li, a:hover{
+    color: rgb(22, 221, 55);
+}
+
+nav, li{
+    margin: 0 20px;
+}
+
+h1 {
+    color: rgb(14, 212, 14);
+    font-family:'Dancing Script', cursive;
+}
+
+h2{
+    display: inline;
+}
+
+img {
+    width: 450px;
+    height: 400px;
+    padding: 30px 30px;
+}
+
+body{
+    background-color: rgb(116, 37, 190);
+    margin: 40px
+}
+
+p{
+    font-size: 50px;
+    padding: 12px 20px;
+    display: flex;
+    font-family: sans-serif;
+    color: rgb(64, 6, 66);
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid rgb(3, 3, 27);
+    border-left: 2px solid rgb(7, 7, 68);
+    border-right: 2px solid rgb(7, 7, 68);
+}
+
+th {
+    background-color: rgb(7, 7, 68);
+    color: rgb(14, 212, 14);
+    border-bottom: 2px solid rgb(3, 3, 27);
+    justify-items: center;
+}
+
+tr{
+    background-color: rgb(236, 229, 243);
+}
+
+form{
+    border-bottom: 2px solid rgb(3, 3, 27);
+    border-left: 2px solid rgb(3, 3, 27);
+    border-right: 2px solid rgb(3, 3, 27);
+    border-top: 2px solid rgb(3, 3, 27);
+    text-align: center;
+    display:flexblox;
+    padding: 50px;
+    background-color: rgb(88, 240, 189);
+
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(6, 238, 6);
+    height: 30px;
+    border-radius: 20%;
+    padding: 15px;
+    font-size: 20px;
+    justify-items: center;
+    display: flexbox;
+}
+
+input, select, button{
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+.image{
+    flex: 1;
+    padding: 10px;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 2;
+    padding: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
